@@ -1,0 +1,13 @@
+body{
+    background-color: rgb(207, 225, 225);
+}
+
+h1{
+    color: blueviolet;
+    font-family: cursive;
+}
+p{
+    color: brown;
+    font-family: cursive;
+    font-size: 18px;
+}
