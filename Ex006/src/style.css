@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
+
+.area-texto{
+    width: 429px;
+    font-family: 'Inter', sans-serif;
+}
+
+.area-texto h1{
+    font-weight: 600;
+    color: #3745BD;
+    font-size: 42px;
+    line-height: 52px;
+
+}
+.area-texto p{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+}
