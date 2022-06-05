@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+ body{
+    font-family: 'Inter', sans-serif;
+    height: 100vh;
+ }
+
+ .container{
+    
+    margin: 0 auto;
+
+ }
+
+ .card{
+    background-color: gainsboro;
+    width: 800px;
+    margin: 30px auto 0px auto;
+    padding: 50px;
+    border: 2px dotted #e2e2ec;
+    text-align: center;
+    border-radius: 15px;
+    box-shadow: 0 0 1em black;
+ }
+
+ .card-imagem img{
+    width: 250px;
+    height: 250px;
+    max-width: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+     
+ }
+
+ .card-nome{
+    font-size: 30px;
+    font-weight: bolder;
+    margin:15px auto 15px auto;
+ }
+
+ .card-descricao{
+    font-size: 18px;
+    line-height: 32px;
+
+ }
