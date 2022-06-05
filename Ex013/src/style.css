@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+
+body{
+    font-family: 'Inter', sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+.secao-newsletter{
+    width: 300px;
+    padding: 0;
+    margin: 100px auto 0 auto;
+    border-radius: 5px;
+    border: 2px solid rgb(213, 206, 206);
+    text-align: center;
+    
+}
+
+.formulario-titulo{
+    font-size: 1rem;
+    font-weight: 500;
+    margin: 50px auto;
+    
+}
+
+
+.container-input label{
+    font-size: 0.7rem;
+    margin: 0 160px 0px 0px; 
+    
+  
+}
+.container-input input{
+    margin: 5px 0 0 0 ;
+    width: 190px;
+    height: 25px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: #E9ECEF;
+  
+}
+.container-input input:hover{
+
+    background-color: #DEE2E6;
+    cursor: pointer;
+
+}
+
+.container-input button{
+    font-size: 0.7rem;
+    width: 200px;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    margin: 10px auto 50px auto;
+    background-color: #1971C2;
+    color: #FFFFFF;
+}
+.container-input button:hover{
+    background-color: #1864AB;
+    cursor: pointer;
+}
