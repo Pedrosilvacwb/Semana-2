@@ -1,0 +1,27 @@
+body{
+    padding: 0px;
+    margin: 0px;
+
+}
+
+.exemplo{
+    list-style: none;
+    
+}
+.exemplo-item{
+    display: inline-block;
+    padding: 50px;
+    width: 10%;
+    height: 10%;
+}
+.item-1{
+    background-color: red;
+}
+
+.item-2{
+    background-color: blue;
+}
+
+.item-3{
+    background-color: green;
+}
