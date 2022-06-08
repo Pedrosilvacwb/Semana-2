@@ -59,5 +59,6 @@ header{
 
 .cabecalho-menu ul li a:hover{
     color: #4C6EF5;
+    text-decoration: underline;
 }
 
