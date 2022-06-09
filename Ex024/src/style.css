@@ -1,0 +1,107 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.cabecalho{
+    width: 100%;
+    background: #ffffff;
+    box-shadow: 0px 4px 30px -15px rgba(0, 0, 0, 0.1);
+    height: 80px;
+}
+
+.container{
+    max-width: 900px;
+    margin: 0 auto;
+    height: 80px;
+}
+
+.cabecalho-flex{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    
+}
+
+.logo h2{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+}
+
+.menu{
+    width: 100%;
+   
+}
+
+.menu .menu-itens{
+    list-style: none;
+    display: flex;
+    justify-content:flex-end;
+    gap: 46px;
+}
+
+.menu-itens li{}
+
+.menu-itens li a{
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    border-bottom: 2px solid transparent;
+    color: #585E65;
+    transition: 0.5s;
+}
+
+.menu-itens li a:hover{
+    border-color: blue;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+main{
+    text-align: center;
+}
+
+main h1{
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 28px;
+    margin: 48px 0 16px 0;
+}
+
+main small{
+    display: block;
+    text-align: left;
+    margin: 0 0 32px 0;
+
+}
+
+main img{
+    width: 100%;
+    object-fit: fill;
+    height: 200px;
+    margin: 16px 0;
+}
+
+main h2{
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 24px;
+    text-align: left;
+    margin: 48px 0;
+}
+
+main p{
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 24px;
+    text-align: justify;
+    margin: 32px 0;
+}
