@@ -1,0 +1,252 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+.container{
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #f1f3f5;
+}
+
+
+/* ÁREA DE CABEÇALHO*/
+
+.cabecalho{
+    background-image:url(./img/Banner.png);
+    width: 100%;
+    height: 562px;
+    background-position: center;
+    background-size: cover;
+}
+
+.cabecalho > .fundo{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(25, 1, 122, 0.9);
+}
+
+.cabecalho-conteudo{
+}
+
+.cabecalho-conteudo img{
+    margin-top: 54px;
+}
+
+.cabecalho-conteudo h1{
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 72px;
+    color: #DEE2E6;
+    margin-top: 45px;
+}
+
+.cabecalho-conteudo p{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 36px;
+    color: #F1F3F5;
+    margin-top: 32px;
+}
+
+.cabecalho-conteudo a{
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #FFFFFF;
+    display: block;
+    margin-top: 24px;
+    margin-bottom: 70px;
+    padding: 12px 0;
+    width: 296px;
+    height: 48px;
+    background: #BC00FF;
+    border: 2px solid #BC00FF;
+    border-radius: 8px;
+}
+
+.cabecalho-conteudo a:hover{
+    background: #8a00bc;
+}
+
+/*AREA PRINCIPAL - COLUNA DIREITA*/
+.conteudo-flex{
+    height: 500px;
+    display: flex;
+    justify-content:space-between;
+    gap: 70px;
+}
+
+.conteudo-flex .coluna{
+    height: 300px;
+    width: 60%;
+}
+
+.vagas-principais{}
+
+.vagas-principais h2{
+    margin: 45px 0 54px 0;
+}
+
+.vagas-principais ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 32px;
+}
+
+.vagas-principais li{
+    width: 818px;
+    height: 307px;
+    background: #FFFFFF;
+    border-radius: 8px;
+  
+}
+
+.vagas-principais li h2{
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 33px;
+    color: #212529;
+    margin-top: 38px;
+    margin-left: 38px;
+    margin-bottom: 18px;
+   
+}
+
+.vagas-principais li small{
+    display: inline-block;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    color: #343A40;
+    margin-left: 38px;
+    margin-bottom: 28px;
+}
+
+.vagas-principais li p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+    color: #343A40;
+    margin-left: 38px;
+    margin-bottom: 28px;
+}
+
+.vagas-principais .botoes{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 38px;
+}
+.vagas-principais li a{
+    text-align: center;
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 22px;
+    color: #343A40;
+    width: 111px;
+    height: 30px;
+    background: #DEE2E6;
+    border-radius: 8px;
+    padding: 4px 12px;
+
+    
+}
+
+.vagas-principais li a ~ a{
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    text-decoration: none;
+    width: 150px;
+    height: 38px;
+    background: #BC00FF;
+    padding: 7px 28px;
+    border: 2px solid #BC00FF;
+    border-radius: 8px;
+    margin-right: 38px;
+
+}
+
+.vagas-principais li a:hover{
+    background: #727273;
+
+}
+
+
+.vagas-principais a ~ a:hover{
+    background: #8a00bc;
+}
+
+
+/*AREA PRINCIPAL - COLUNA ESQUERDA*/
+.esquerda{
+    width: 40%;
+    margin-top: 132px;
+}
+
+.vagas-laterais{
+    background: #ffffff;
+    border-radius: 8px;
+}
+
+.vagas-laterais h2{
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 33px;
+    color: #212529;
+    padding: 32px 0 32px 32px;
+
+}
+
+.vagas-laterais ul{
+    margin-left: 32px;
+}
+
+.vagas-laterais li{
+    display: flex;
+    justify-content: flex-start;
+
+}
+
+.vagas-laterais h3{
+    margin: 32px 0 20px 0;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 26px;
+    color: #212529;
+}
+
+.vagas-laterais small{
+    display: inline-block;
+    margin-bottom: 32px;
+    margin-right: 32px;
+}
+
+.vagas-laterais a{
+    width: 40px;
+    height: 40px;
+    background: #F1F3F5;
+    border: 2px solid #F1F3F5;
+    border-radius: 8px;
+    margin-left: 200px;
+    margin-top: 32px ;
+}
+
+.vagas-laterais a:hover{
+    background: #7a7a7a;
+}
+
+.vagas-laterais a img{
+    margin: auto;
+    margin: 10px;
+}
