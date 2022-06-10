@@ -1,0 +1,180 @@
+/*Configurações Gerais*/ 
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.container-menor{
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+/* Cabeçalho*/
+.cabecalho{
+    height: 105px;
+    background: #FFFFFF;
+    border: 1px solid #C0C0C0;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.cabecalho-conteudo{
+    height: 100%;
+    display: flex;
+    justify-content: flex-start;
+    gap: 60px;
+    align-items: center;
+}
+
+.cabecalho-conteudo img{
+    width: 220px;
+    height: 55px;
+    margin-left: 70px ;
+}
+
+.cabecalho-menu{
+    max-height: 100%;
+    max-width: 100%;
+
+}
+
+.cabecalho-menu ul{
+    display: flex;
+    justify-content: flex-start;
+    gap: 60px;
+    max-height: 100%;
+    max-width: 100%;
+}
+
+.cabecalho-menu li{}
+
+.cabecalho-menu a{
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #2D2D2D;
+}
+
+.cabecalho-menu a:hover{
+    color: #0000FF;
+}
+
+
+/* Área Principal*/
+
+main{
+}
+
+.conteudo-principal{
+    margin-top: 130px; 
+}
+
+.conteudo-principal h1{
+    font-weight: 800;
+    font-size: 36px;
+    line-height: 48px;
+    text-transform: uppercase;
+    color: #0000FF;
+    margin-bottom: 20px;
+}
+
+.conteudo-principal>p{
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+    color: #2D2D2D;
+    margin-bottom: 100px;
+}
+
+.conteudo-principal img{
+    width: 1168px;
+    height: 300px;
+    object-fit: cover;
+}
+
+.conteudo-principal figcaption{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 32px;
+    color: #A0A0A0;
+}
+
+/*Área do Artigo*/
+
+.conteudo-principal-corpo{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 20px;
+}
+
+.conteudo-principal-corpo h2{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    color: #2D2D2D;
+
+
+}
+
+.conteudo-principal-corpo p{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    color: #2D2D2D;
+}
+
+/*Seção de outros Posts*/
+
+.fita-azul{
+    width: 100%;
+    height: 250px;
+    background-color: #0404FF;
+    ;
+
+}
+
+.outros-posts{
+    margin-top: 80px;
+    padding-top: 40px;
+    border-top: 2px solid #DDDDDD;
+    transform: translateY(30%);
+}
+
+.outros-posts ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.outros-posts li{
+    width: 300px;
+    height: 250px;
+    background: #F5F5F5;
+    border-radius: 16px;
+}
+
+.outros-posts img{
+    width: 100%;
+    height: 160px;
+    object-fit: cover;
+    border-radius: 20px 20px 0px 0px;
+    margin-bottom: 30px;
+}
+
+.outros-posts p{
+    font-size: 16px;
+    line-height: 18px;
+    font-weight: 600;
+    color: #2D2D2D;
+    text-align: center;
+
+}
+
+.outros-posts small{}
+
+footer{
+    height: 500px;
+    background: #0A1E32;
+}
