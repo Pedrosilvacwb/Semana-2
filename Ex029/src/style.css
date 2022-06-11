@@ -1,0 +1,458 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+body{
+    background-color:#f1f1f1;
+    font-family:'Open Sans', sans-serif;;
+}
+
+/*AREA DE CABEÇALHO*/
+
+.cabecalho{
+    width: 100%;
+    height: 40px;
+    background-color: #000;
+}
+
+.cabecalho nav{
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cabecalho nav ul{
+    height: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 32px;
+    margin-left: 32px;
+    
+}
+
+.cabecalho nav li{}
+
+.cabecalho nav li a{
+    color: #fff;
+    font-size: 12px;
+}
+
+.cabecalho nav li a:hover{
+    color: #000;
+    background: #fff;
+}
+
+.cabecalho nav form{
+    margin-right: 32px ;
+}
+
+.cabecalho nav form input{
+    width: 200px;
+    height: 25px;
+    border-radius: 16px;
+    padding: 12px;
+
+}
+
+.cabecalho nav form button{
+    height: 25px;
+    width: 80px;
+    border-radius: 16px;
+}
+
+/*AREA DE INTRO*/
+
+main{
+}
+
+.intro{
+    margin: 48px 0;
+}
+
+.intro h1{
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 1.5;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    
+}
+
+.intro h3{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 10px 0;
+    text-align: center;
+}
+
+.intro h3 span{
+    background-color: #000;
+    color: #ffffff;
+    padding: 0 8px;
+}
+
+/*AREA DE SUBSCRIBE*/
+
+.subscribe{
+    width: 100%;
+    height: 800px;
+    background: url(./img/Subscribe\ banner.jpg);
+    background-position: center;
+    background-size: cover;
+
+}
+
+.subscribe-area{
+    padding-top: 300px;
+}
+.subscribe h2{
+    font-family: 'Oswald', sans-serif;
+    font-size: 36px;
+    letter-spacing: 4px;
+    color: #ffffff;
+   
+}
+
+.subscribe h3{
+    font-family: 'Oswald', sans-serif;
+    font-size: 64px;
+    letter-spacing: 4px;
+    color: #ffffff;
+    margin-top: 32px;
+
+
+}
+
+.subscribe button{
+    font-size: 18px;
+    color: #000;
+    background-color: #fff;
+    opacity: 0.60;
+    padding: 12px 24px;
+    text-align: center;
+    cursor: pointer;
+    margin-top: 16px;
+}
+
+.subscribe button:hover{
+    opacity: 0.80;
+}
+
+
+/*AREA PRINCIPAL*/
+
+.conteudo-principal{
+    display: flex;
+    justify-content:space-evenly;
+    margin: 32px 0;
+
+}
+
+.posts{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 32px;
+}
+
+.posts-card{
+    background-color: #ffffff;
+    border: 0px solid black;
+    border-radius: 8px;
+}
+
+.posts-conteudo h2{
+    font-family: 'Oswald', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    margin: 15px 0;
+    text-align: center;
+}
+
+.posts-conteudo .posts-descricao{
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    font-size: 18px;
+    margin: 15px 0;
+}
+
+.posts-descricao span{
+    font-family: 'Oswald', sans-serif;
+    color: #6a6868;
+    opacity: 0.60;
+}
+
+.posts-conteudo img{
+    max-width: 90%;
+    display: block;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    margin: 0 auto;
+}
+
+.post-texto-principal{
+    font-family:'Open Sans', sans-serif;;
+    font-size: 15px;
+    line-height: 1.5;
+    text-align: justify;
+    padding: 0 45px;
+    margin: 16px 0;
+}
+
+.posts-botoes{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 40px;
+}
+
+.posts-botoes button{
+    width: 80px;
+    height: 40px;
+    font-size: 15px;
+    background: #fff;
+    color: #000;
+    cursor: pointer;
+    border: 0.5px solid black;
+    font-weight: 600;
+}
+
+.posts-botoes button ~ button{
+    background: #000;
+    color: #fff;
+
+}
+
+.posts-botoes button:hover{
+    background-color: #6a6868;
+}
+
+
+/*CONTEUDO LATERAL*/
+
+
+.navegacao-lateral{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 24px;
+}
+
+.navegacao-lateral h2{
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif; 
+    color: #ffffff;
+    height: 66px;
+    padding: 16px 16px;
+    background-color: #000;
+
+
+}
+
+.sobre-mim{
+    background: #000;
+    border: 0px solid black;
+}
+
+.sobre-mim img{
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    filter: grayscale(75%);
+}
+
+
+.sobre-mim p{
+    padding: 16px;
+    font-size: 15px;
+    line-height: 1.5;
+    color: #f1f1f1;
+}
+.posts-populares{
+    border: 0px solid black;
+}
+
+.posts-populares-card{
+    display: flex;
+    justify-content: flex-start;
+    gap: 16px;
+    padding: 16px;
+    border-bottom: 0.2px solid #6a6868;
+}
+
+.posts-populares-card:hover{
+    background-color: #6a6868;
+}
+
+.posts-populares-card img{
+    width: 50px;
+    height: 55px;
+
+}
+.posts-populares-card h3{
+    font-size: 18px;
+    line-height: 1.5;
+    font-weight: 400;
+}
+
+.posts-populares-card p{
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+
+.propaganda{
+    background-color: #ffffff
+}
+
+.propaganda p{
+    height: 200px;
+    text-align: center;
+    padding-top: 100px;
+    margin: 16px;
+    background-color: #f1f1f1
+}
+
+.tags{
+    background-color: #fff;
+    border: 0px solid black;
+
+}
+
+.tags p{
+    margin: 15px ;
+}
+
+.tags p span{
+    display: inline-block;
+    background-color: #f1f1f1;
+    font-size: 12px;
+    margin: 0 0 16px;
+    padding: 0 8px;
+    width: 69px;
+}
+
+.inspiracao{
+    border: 0px solid black;
+    background-color: #fff;
+}
+
+.inspiracao-fotos{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 16px;
+    margin: 16px 0;
+
+}
+
+.inspiracao img{
+    width: 120px;
+    height: 80px;
+    object-fit: cover;
+}
+
+.redes-sociais{
+    background-color: #fff;
+    border: 0px solid black;
+}
+
+.redes-sociais nav{
+    height: 50px;
+}
+
+.redes-sociais ul{
+    height: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-left: 8px;
+}
+
+.redes-sociais a{
+    color: #000;
+    font-size: 14px;
+}
+
+.redes-sociais a:hover{
+    color: #6a6868;
+}
+
+.subscribe-lateral{
+    border: 0px solid black;
+    background-color: #ffffff;
+}
+
+.subscribe-lateral form{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 16px;
+    margin: 16px;
+}
+
+.subscribe-lateral form p{
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.subscribe-lateral form input{
+    width: 80%;
+    height: 40px;
+    padding: 8px;
+}
+
+.subscribe-lateral form button{
+    width: 80%;
+    height: 40px;
+    font-size: 15px;
+    color: #fff;
+    background-color: #f44336;
+    border: none;
+    cursor: pointer;
+} 
+
+.subscribe-lateral form button:hover{
+    color: #000;
+    background-color: #6a6868;
+}
+
+/*AREA DE RODAPE*/
+
+footer{
+    height: 180px;
+    padding: 32px;
+    background-color: #616161;
+}
+
+footer a{
+    display: inline-block;
+    color: #f1f1f1;
+    background-color: #000;
+    width: 150px;
+    height: 45px;
+    padding: 12px 24px;
+    text-align: center;
+    margin: 0 0 16px;
+    cursor: pointer;
+}
+
+footer a:hover{
+    color: #000;
+    background-color: #f1f1f1;
+}
